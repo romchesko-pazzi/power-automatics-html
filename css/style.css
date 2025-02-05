@@ -44,7 +44,6 @@ body::before {
   display: flex;
 }
 .header .heading-primary--main {
-  border: 1px blue solid;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -54,15 +53,14 @@ body::before {
   display: block;
   font-size: 2rem;
   font-weight: 500;
-  border: 1px red solid;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 .header__logo-box {
-  border: 1px rgba(0, 255, 21, 0.719) solid;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ffffff;
 }
 .header__email {
   font-size: 2.1rem;
@@ -85,18 +83,24 @@ body::before {
   display: flex;
 }
 .about__image-box {
-  width: 5rem;
+  flex: 1; /* Каждый блок занимает равное пространство */
+  max-width: 50%; /* Ограничиваем ширину до 50% */
 }
 .about__text-box {
   border: 1px pink solid;
   padding: 3rem;
+  flex: 1;
+  max-width: 50%;
 }
 .about__heading-box {
-  border: 1px blue solid;
   display: flex;
 }
 .about__heading {
   font-size: 4.4rem;
+}
+.about__description {
+  font-size: 2rem;
+  color: #dddddd;
 }
 
 /*# sourceMappingURL=style.css.map */
