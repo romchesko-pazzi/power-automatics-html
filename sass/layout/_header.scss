@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    // background-color: #e2e2e2;
+
+
+    &__left-block {
+        display: flex;
+    }
+
+.heading-primary {
+  &--main {
+    border: 1px blue solid;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255)
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px red solid;
+    text-align: center;
+    color: rgb(255, 255, 255)
+  }
+}
+
+    &__logo-box {
+        border: 1px rgba(0, 255, 21, 0.719) solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__email {
+        font-size: 2.1rem;
+        color: rgb(255, 255, 255);
+        // border: 1px rgb(25, 34, 158) solid;
+        margin-bottom: 1rem;
+    }
+
+    &__phone-number {
+        font-size: 2.1rem;
+        // border: 1px blue solid;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+  
+}

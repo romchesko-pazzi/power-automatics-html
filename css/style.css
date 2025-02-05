@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*Зануление стилей браузера*/
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*1rem === 10px*/
+/*меняем пиксели на rem = 60px = 60/10 = 6rem */
+/*размер нужно ставить в процентах, дефолт-16px(100%),
+но если нам нужен кастомный, допустим 10px -> 10px / 16px = 0.625 = 62.5%*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: url("../../img/background-image.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  filter: blur(0.4rem);
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+.header__left-block {
+  display: flex;
+}
+.header .heading-primary--main {
+  border: 1px blue solid;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+.header .heading-primary--sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  border: 1px red solid;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.header__logo-box {
+  border: 1px rgba(0, 255, 21, 0.719) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__email {
+  font-size: 2.1rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+.header__phone-number {
+  font-size: 2.1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
