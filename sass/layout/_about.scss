@@ -1,0 +1,29 @@
+.about {
+  // min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  &__main {
+    border: 1px red solid;
+    color: white;
+    display: flex;
+  }
+
+  &__image-box {
+    width: 5rem;
+  }
+
+  &__text-box {
+    border: 1px pink solid;
+    padding: 3rem;
+  }
+
+  &__heading-box {
+    border: 1px blue solid;
+    display: flex;
+  }
+
+  &__heading {
+    font-size: 4.4rem;
+  }
+}

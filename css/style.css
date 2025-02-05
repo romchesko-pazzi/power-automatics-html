@@ -75,4 +75,28 @@ body::before {
   text-align: center;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about__main {
+  border: 1px red solid;
+  color: white;
+  display: flex;
+}
+.about__image-box {
+  width: 5rem;
+}
+.about__text-box {
+  border: 1px pink solid;
+  padding: 3rem;
+}
+.about__heading-box {
+  border: 1px blue solid;
+  display: flex;
+}
+.about__heading {
+  font-size: 4.4rem;
+}
+
 /*# sourceMappingURL=style.css.map */

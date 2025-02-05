@@ -11,7 +11,6 @@ $color-grey-transparent: #eee;
 $color-grey-dark: #777;
 $color-grey-medium: #999;
 
-
 $color-orange-light: #ffb900;
 $color-orange-dark: #ff7730;
 
@@ -21,9 +20,9 @@ $color-blue-dark: #5643fa;
 //fonts
 $default-font-size: 1.6rem;
 
-$default-box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+$default-box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
-$small-border-radius: .3rem;
+$small-border-radius: 0.3rem;
 
 $gutter-horizontal: 6rem;
 $gutter-vertical: 8rem;
