@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 .about {
   display: flex;
   justify-content: center;
@@ -32,7 +34,7 @@
 
   &__description {
     font-size: 2rem;
-    color: #dddddd;
+    color: $color-text;
     display: flex;
     flex-direction: column;
     gap: 2.3rem;

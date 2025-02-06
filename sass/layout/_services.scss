@@ -1,0 +1,31 @@
+.services {
+  color: white;
+  font-size: 20px;
+  margin-top: 15rem;
+  border: 1px red solid;
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__paragraph {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  &__cards-box {
+    display: flex;
+    gap: 12rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  &__card-box {
+    background-color: #fff;
+    box-shadow: 0 0 0.8rem -0.3rem rgba(0, 0, 0, 0.36);
+    margin-top: 1.5rem;
+    padding: 3.5rem;
+    color: #000;
+    border-radius: 2rem;
+  }
+}

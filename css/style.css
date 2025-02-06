@@ -109,4 +109,32 @@ body::before {
   line-height: 2.7rem;
 }
 
+.services {
+  color: white;
+  font-size: 20px;
+  margin-top: 15rem;
+  border: 1px red solid;
+}
+.services__heading {
+  text-align: center;
+}
+.services__paragraph {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+.services__cards-box {
+  display: flex;
+  gap: 12rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.services__card-box {
+  background-color: #fff;
+  box-shadow: 0 0 0.8rem -0.3rem rgba(0, 0, 0, 0.36);
+  margin-top: 1.5rem;
+  padding: 3.5rem;
+  color: #000;
+  border-radius: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
