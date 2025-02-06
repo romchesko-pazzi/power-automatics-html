@@ -103,6 +103,10 @@ body::before {
 .about__description {
   font-size: 2rem;
   color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  line-height: 2.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

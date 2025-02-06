@@ -1,6 +1,6 @@
-@import 'abstracts/variables';
+@use 'abstracts/variables';
 
-@import 'base/base';
+@use 'base/base';
 
-@import 'layout/header';
-@import 'layout/about';
+@use 'layout/header';
+@use 'layout/about';
