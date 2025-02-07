@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 4rem;
 
-  &__left-block {
+  &__heading-box {
     display: flex;
   }
 
@@ -28,7 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
   }
 
   &__email {
