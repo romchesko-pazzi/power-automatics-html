@@ -7,6 +7,16 @@
     display: flex;
   }
 
+  &__logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__company-title {
+    text-align: center;
+  }
+
   .heading-primary {
     &--main {
       font-size: 3rem;
@@ -25,16 +35,33 @@
   }
 
   &__contacts-box {
-    display: flex;
+    svg {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    // display: flex;
   }
 
-  &__logo-box {
+  &__email-box {
     display: flex;
-    justify-content: center;
+
+    span {
+      font-size: 2.1rem;
+      color: rgb(255, 255, 255);
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__email-logo-box {
+    display: flex;
     align-items: center;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
   }
 
   &__phone-number-box {
+    display: flex;
+
     span {
       font-size: 2.1rem;
       color: rgb(255, 255, 255);
@@ -43,15 +70,6 @@
   }
 
   &__phone-logo-box {
-    border: 1px white solid;
-  }
-
-  &__email {
-    font-size: 2.1rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 1rem;
-  }
-
-  &__phone-number {
+    padding-right: 0.6rem;
   }
 }
