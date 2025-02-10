@@ -171,6 +171,7 @@ body::before {
 .map {
   display: flex;
   width: 100%;
+  min-height: 51rem;
 }
 .map__left-box {
   display: flex;
@@ -185,17 +186,18 @@ body::before {
   font-size: 3rem;
   font-weight: 600;
   padding-left: 5rem;
+  color: white;
 }
 .map__microtext {
   font-size: 2rem;
-  color: lightblue;
-  border: 1px red solid;
+  color: #dddddd;
   max-width: 55%;
   padding-left: 5rem;
 }
 .map__contacts {
   display: flex;
   flex-direction: column;
+  color: #dddddd;
   font-size: 2.1rem;
   padding-left: 5rem;
 }
