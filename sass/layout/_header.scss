@@ -24,10 +24,26 @@
     }
   }
 
+  &__contacts-box {
+    display: flex;
+  }
+
   &__logo-box {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &__phone-number-box {
+    span {
+      font-size: 2.1rem;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+  }
+
+  &__phone-logo-box {
+    border: 1px white solid;
   }
 
   &__email {
@@ -37,8 +53,5 @@
   }
 
   &__phone-number {
-    font-size: 2.1rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
   }
 }

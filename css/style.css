@@ -56,22 +56,27 @@ body::before {
   text-align: center;
   color: rgb(255, 255, 255);
 }
+.header__contacts-box {
+  display: flex;
+}
 .header__logo-box {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header__phone-number-box span {
+  font-size: 2.1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.header__phone-logo-box {
+  border: 1px white solid;
 }
 .header__email {
   font-size: 2.1rem;
   color: rgb(255, 255, 255);
   margin-bottom: 1rem;
 }
-.header__phone-number {
-  font-size: 2.1rem;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-
 .about {
   display: flex;
   justify-content: center;
@@ -134,6 +139,13 @@ body::before {
   padding: 3.5rem;
   color: #000;
   border-radius: 2rem;
+}
+
+.footer {
+  border: 1px blue solid;
+}
+.footer__phone {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
