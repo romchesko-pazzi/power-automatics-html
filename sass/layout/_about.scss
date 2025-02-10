@@ -1,4 +1,4 @@
-@use '../abstracts/variables' as *;
+@use '../abstracts/vars' as *;
 
 .about {
   display: flex;
@@ -6,7 +6,6 @@
 
   &__main {
     border: 1px red solid;
-    color: white;
     display: flex;
     max-width: 80%;
   }
@@ -34,7 +33,6 @@
 
   &__description {
     font-size: 2rem;
-    color: $color-text;
     display: flex;
     flex-direction: column;
     gap: 2.3rem;

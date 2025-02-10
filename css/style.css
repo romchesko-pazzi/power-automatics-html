@@ -19,26 +19,18 @@ html {
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  background: url("../../img/background-image.jpg") center/cover no-repeat;
-  position: relative;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-  filter: blur(0.4rem);
-  z-index: -1;
+  background: #f9f9fa;
+  color: #000;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
+  min-height: 8rem;
+  align-items: center;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  background-color: #eeeeee;
 }
 .header__heading-box {
   display: flex;
@@ -52,17 +44,17 @@ body::before {
   text-align: center;
 }
 .header .heading-primary--main {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: rgb(255, 255, 255);
+  color: #000;
 }
 .header .heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #000;
 }
 .header__contacts-box svg {
   width: 3.5rem;
@@ -73,7 +65,7 @@ body::before {
 }
 .header__email-box span {
   font-size: 2.1rem;
-  color: rgb(255, 255, 255);
+  color: #000;
   margin-bottom: 1rem;
 }
 .header__email-logo-box {
@@ -87,7 +79,7 @@ body::before {
 }
 .header__phone-number-box span {
   font-size: 2.1rem;
-  color: rgb(255, 255, 255);
+  color: #000;
   text-align: center;
 }
 .header__phone-logo-box {
@@ -100,7 +92,6 @@ body::before {
 }
 .about__main {
   border: 1px red solid;
-  color: white;
   display: flex;
   max-width: 80%;
 }
@@ -123,7 +114,6 @@ body::before {
 }
 .about__description {
   font-size: 2rem;
-  color: #dddddd;
   display: flex;
   flex-direction: column;
   gap: 2.3rem;
@@ -131,7 +121,6 @@ body::before {
 }
 
 .services {
-  color: white;
   font-size: 20px;
   margin-top: 15rem;
   border: 1px red solid;
@@ -179,7 +168,7 @@ body::before {
   flex-direction: column;
   flex: 1;
   width: 50%;
-  background: #19408a;
+  background: #1c499f;
   gap: 2.1rem;
 }
 .map__heading {

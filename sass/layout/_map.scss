@@ -1,3 +1,5 @@
+@use '../abstracts/vars' as *;
+
 .map {
   display: flex;
   width: 100%;
@@ -9,7 +11,7 @@
     flex-direction: column;
     flex: 1;
     width: 50%;
-    background: #19408a;
+    background: $color-blue-dark;
     gap: 2.1rem;
   }
 

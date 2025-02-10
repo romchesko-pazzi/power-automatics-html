@@ -1,7 +1,14 @@
+@use '../abstracts/vars' as *;
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
+
+  min-height: 8rem;
+  align-items: center;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  background-color: $color-gray-light;
 
   &__heading-box {
     display: flex;
@@ -19,10 +26,10 @@
 
   .heading-primary {
     &--main {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 1rem;
-      color: rgb(255, 255, 255);
+      color: #000;
     }
 
     &--sub {
@@ -30,7 +37,7 @@
       font-size: 2rem;
       font-weight: 500;
       text-align: center;
-      color: rgb(255, 255, 255);
+      color: #000;
     }
   }
 
@@ -47,7 +54,7 @@
 
     span {
       font-size: 2.1rem;
-      color: rgb(255, 255, 255);
+      color: #000;
       margin-bottom: 1rem;
     }
   }
@@ -64,7 +71,7 @@
 
     span {
       font-size: 2.1rem;
-      color: rgb(255, 255, 255);
+      color: #000;
       text-align: center;
     }
   }
