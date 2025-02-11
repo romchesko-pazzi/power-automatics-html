@@ -16,11 +16,12 @@
   }
 
   &__text-box {
+    color: white;
     border: 1px pink solid;
     padding: 3rem;
     flex: 1;
     max-width: 50%;
-    background: #10135a6b;
+    background: $medium-blue;
   }
 
   &__heading-box {

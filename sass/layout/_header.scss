@@ -8,10 +8,11 @@
   min-height: 8rem;
   align-items: center;
   box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-  background-color: $color-gray-light;
+  background-color: $gray-light;
 
   &__heading-box {
     display: flex;
+    gap: 1.1rem;
   }
 
   &__logo-box {
@@ -21,14 +22,12 @@
   }
 
   &__company-title {
-    text-align: center;
   }
 
   .heading-primary {
     &--main {
       font-size: 2.5rem;
       font-weight: 700;
-      margin-bottom: 1rem;
       color: #000;
     }
 

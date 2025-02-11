@@ -34,19 +34,16 @@ body {
 }
 .header__heading-box {
   display: flex;
+  gap: 1.1rem;
 }
 .header__logo-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header__company-title {
-  text-align: center;
-}
 .header .heading-primary--main {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
   color: #000;
 }
 .header .heading-primary--sub {
@@ -100,11 +97,12 @@ body {
   max-width: 50%; /* Ограничиваем ширину до 50% */
 }
 .about__text-box {
+  color: white;
   border: 1px pink solid;
   padding: 3rem;
   flex: 1;
   max-width: 50%;
-  background: rgba(16, 19, 90, 0.4196078431);
+  background: #3f6fcc;
 }
 .about__heading-box {
   display: flex;
@@ -150,44 +148,45 @@ body {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(255, 255, 255);
+  background-color: #eeeeee;
   padding: 5rem;
 }
 .footer__left-box {
   display: flex;
   gap: 0.7rem;
   font-size: 2.1rem;
+  padding: 2rem;
+  background-color: #f6f9ff;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 14px;
 }
 .footer__left-box-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  border: 1px red solid;
-}
-.footer__left-box-logo > svg {
-  border: 1px blue solid;
 }
 .footer__left-box-text {
   display: flex;
   gap: 0.6rem;
   flex-direction: column;
+  font-weight: 500;
   justify-content: center;
 }
 .footer__center-box {
   display: flex;
   gap: 0.7rem;
   font-size: 2.1rem;
+  padding: 2rem;
+  background-color: #f6f9ff;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 14px;
 }
 .footer__center-box-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  border: 1px red solid;
-}
-.footer__center-box-logo > svg {
-  border: 1px blue solid;
 }
 .footer__center-box-text {
   display: flex;
@@ -199,16 +198,16 @@ body {
   display: flex;
   gap: 0.7rem;
   font-size: 1.4rem;
+  padding: 2rem;
+  background-color: #f6f9ff;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 14px;
 }
 .footer__right-box-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  border: 1px red solid;
-}
-.footer__right-box-logo > svg {
-  border: 1px blue solid;
 }
 .footer__right-box-text {
   display: flex;
