@@ -1,11 +1,26 @@
 .footer {
   border: 1px blue solid;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
 
   &__left-box {
-    background: rgb(43, 255, 0);
-  }
+    display: flex;
+    background: red;
+    font-size: 2.1rem;
 
-  &__phone {
-    color: red;
+    &-text {
+      background: green;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-logo svg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
