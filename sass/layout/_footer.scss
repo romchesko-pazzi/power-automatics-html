@@ -1,26 +1,89 @@
 .footer {
-  border: 1px blue solid;
   display: flex;
   justify-content: space-around;
   background-color: rgb(255, 255, 255);
+  padding: 5rem;
 
   &__left-box {
     display: flex;
-    background: red;
+    gap: 0.7rem;
     font-size: 2.1rem;
 
-    &-text {
-      background: green;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &-logo svg {
+    &-logo {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
       height: 100%;
+      border: 1px red solid;
+      // border: 1px orange solid;
+    }
+
+    &-logo > svg {
+      border: 1px blue solid;
+    }
+
+    &-text {
+      display: flex;
+      gap: 0.6rem;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__center-box {
+    display: flex;
+    gap: 0.7rem;
+    font-size: 2.1rem;
+
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      border: 1px red solid;
+      // border: 1px orange solid;
+    }
+
+    &-logo > svg {
+      border: 1px blue solid;
+    }
+
+    &-text {
+      display: flex;
+      gap: 0.3rem;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__right-box {
+    display: flex;
+    gap: 0.7rem;
+    font-size: 1.4rem;
+
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      border: 1px red solid;
+      // border: 1px orange solid;
+    }
+
+    &-logo > svg {
+      border: 1px blue solid;
+    }
+
+    &-text {
+      display: flex;
+      gap: 0.3rem;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &-text > span:first-child {
+      // width: 40%;
+      font-size: 2.1rem;
     }
   }
 }
