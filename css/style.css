@@ -23,6 +23,23 @@ body {
   color: #000;
 }
 
+.background {
+  background: url("../../img/background-image.jpg") center/cover no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  z-index: -1;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -39,15 +56,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header .heading-primary--main {
+.header__title h1 {
   font-size: 2.5rem;
-  font-weight: 700;
 }
-.header .heading-primary--sub {
-  display: block;
+.header__title h2 {
   font-size: 2rem;
   font-weight: 500;
-  text-align: center;
 }
 .header__contacts-box {
   display: flex;
@@ -59,7 +73,6 @@ body {
   color: #fff;
   padding: 0.7rem;
   background-color: #1c499f;
-  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
   border-radius: 0.7rem;
   cursor: pointer;
 }
@@ -73,7 +86,6 @@ body {
   color: #fff;
   padding: 0.7rem;
   background-color: #1c499f;
-  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
   border-radius: 0.7rem;
   cursor: pointer;
 }
@@ -90,6 +102,7 @@ body {
 .about {
   display: flex;
   justify-content: center;
+  padding-top: 10rem;
 }
 .about__main {
   border: 1px red solid;
