@@ -26,11 +26,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 4rem;
-  min-height: 8rem;
+  padding: 1.7rem;
   align-items: center;
   box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-  background-color: #eeeeee;
 }
 .header__heading-box {
   display: flex;
@@ -53,36 +51,38 @@ body {
   text-align: center;
   color: #000;
 }
-.header__contacts-box svg {
-  width: 3.5rem;
-  height: 3.5rem;
+.header__contacts-box {
+  display: flex;
+  gap: 3rem;
 }
 .header__email-box {
   display: flex;
+  color: #fff;
+  padding: 0.7rem;
+  background-color: #3f6fcc;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 0.7rem;
 }
 .header__email-box span {
-  font-size: 2.1rem;
-  color: #000;
-  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  padding-top: 0.4rem;
 }
 .header__email-logo-box {
   display: flex;
   align-items: center;
-  padding-right: 0.7rem;
-  padding-top: 0.5rem;
 }
 .header__phone-number-box {
   display: flex;
+  color: #fff;
+  padding: 0.7rem;
+  background-color: #3f6fcc;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 0.7rem;
 }
 .header__phone-number-box span {
-  font-size: 2.1rem;
-  color: #000;
-  text-align: center;
+  font-size: 1.9rem;
+  padding-top: 0.4rem;
 }
-.header__phone-logo-box {
-  padding-right: 0.6rem;
-}
-
 .about {
   display: flex;
   justify-content: center;
