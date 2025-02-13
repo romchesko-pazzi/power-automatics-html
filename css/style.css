@@ -53,18 +53,33 @@ body {
   display: flex;
   gap: 3rem;
 }
-.header__email-box, .header__phone-number-box {
+.header__email-box {
+  gap: 0.5rem;
   display: flex;
   color: #fff;
   padding: 0.7rem;
-  background-color: #3f6fcc;
+  background-color: #1c499f;
   box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
   border-radius: 0.7rem;
   cursor: pointer;
 }
-.header__email-box span, .header__phone-number-box span {
+.header__email-box span {
   font-size: 1.9rem;
-  padding-top: 0.4rem;
+  padding-top: 0.2rem;
+}
+.header__phone-number-box {
+  gap: 0.3rem;
+  display: flex;
+  color: #fff;
+  padding: 0.7rem;
+  background-color: #1c499f;
+  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+.header__phone-number-box span {
+  font-size: 1.9rem;
+  padding-top: 0.3rem;
 }
 .header__email-logo-box, .header__phone-logo-box {
   display: flex;

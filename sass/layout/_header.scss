@@ -10,15 +10,10 @@
   display: flex;
   color: #fff;
   padding: 0.7rem;
-  background-color: $medium-blue;
+  background-color: $dark-blue;
   box-shadow: $default-box-shadow;
   border-radius: 0.7rem;
   cursor: pointer;
-
-  span {
-    font-size: 1.9rem;
-    padding-top: 0.4rem;
-  }
 }
 
 .header {
@@ -56,9 +51,22 @@
     gap: 3rem;
   }
 
-  &__email-box,
-  &__phone-number-box {
+  &__email-box {
+    gap: 0.5rem;
     @include contact-box;
+    span {
+      font-size: 1.9rem;
+      padding-top: 0.2rem;
+    }
+  }
+
+  &__phone-number-box {
+    gap: 0.3rem;
+    @include contact-box;
+    span {
+      font-size: 1.9rem;
+      padding-top: 0.3rem;
+    }
   }
 
   &__email-logo-box,
