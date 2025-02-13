@@ -166,16 +166,22 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #eeeeee;
-  padding: 5rem;
+  padding: 1.7rem;
+}
+.footer__ii {
+  display: flex;
+  border: 1px red solid;
+  align-self: center;
+  gap: 30rem;
 }
 .footer__left-box {
   display: flex;
+  color: #fff;
   gap: 0.7rem;
-  font-size: 2.1rem;
-  padding: 2rem;
-  background-color: #f6f9ff;
-  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-  border-radius: 14px;
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  background-color: #1c499f;
+  border-radius: 0.7rem;
 }
 .footer__left-box-logo {
   display: flex;
@@ -192,12 +198,12 @@ body {
 }
 .footer__center-box {
   display: flex;
+  color: #fff;
   gap: 0.7rem;
-  font-size: 2.1rem;
-  padding: 2rem;
-  background-color: #f6f9ff;
-  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-  border-radius: 14px;
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  background-color: #1c499f;
+  border-radius: 0.7rem;
 }
 .footer__center-box-logo {
   display: flex;
@@ -213,12 +219,12 @@ body {
 }
 .footer__right-box {
   display: flex;
+  color: #fff;
   gap: 0.7rem;
-  font-size: 1.4rem;
-  padding: 2rem;
-  background-color: #f6f9ff;
-  box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-  border-radius: 14px;
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  background-color: #1c499f;
+  border-radius: 0.7rem;
 }
 .footer__right-box-logo {
   display: flex;

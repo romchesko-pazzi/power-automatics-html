@@ -1,19 +1,31 @@
 @use '../abstracts/vars' as *;
 
+@mixin box {
+  display: flex;
+  color: #fff;
+  gap: 0.7rem;
+  font-size: 1.7rem;
+  padding: 0.7rem;
+  background-color: $dark-blue;
+  border-radius: 0.7rem;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   background-color: $gray-light;
-  padding: 5rem;
+  padding: 1.7rem;
+
+  &__ii {
+    display: flex;
+    border: 1px red solid;
+    align-self: center;
+    gap: 30rem;
+  }
 
   &__left-box {
-    display: flex;
-    gap: 0.7rem;
-    font-size: 2.1rem;
-    padding: 2rem;
-    background-color: $extra-light-blue;
-    box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-    border-radius: 14px;
+    // box-shadow: $default-box-shadow;
+    @include box;
 
     &-logo {
       display: flex;
@@ -32,13 +44,7 @@
   }
 
   &__center-box {
-    display: flex;
-    gap: 0.7rem;
-    font-size: 2.1rem;
-    padding: 2rem;
-    background-color: $extra-light-blue;
-    box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-    border-radius: 14px;
+    @include box;
 
     &-logo {
       display: flex;
@@ -56,13 +62,7 @@
   }
 
   &__right-box {
-    display: flex;
-    gap: 0.7rem;
-    font-size: 1.4rem;
-    padding: 2rem;
-    background-color: $extra-light-blue;
-    box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
-    border-radius: 14px;
+    @include box;
 
     &-logo {
       display: flex;
