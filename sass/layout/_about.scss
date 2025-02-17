@@ -26,6 +26,7 @@
 
   &__heading-box {
     display: flex;
+    padding-bottom: 2rem;
   }
 
   &__heading {
@@ -33,10 +34,10 @@
   }
 
   &__description {
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     gap: 2.3rem;
-    line-height: 2.7rem;
+    line-height: 2.5rem;
   }
 }

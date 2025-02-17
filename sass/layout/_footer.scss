@@ -3,12 +3,13 @@
 @mixin box {
   display: flex;
   color: #fff;
-  gap: 0.7rem;
-  font-size: 1.7rem;
-  padding: 0.7rem;
+  gap: 0.8rem;
+  font-size: 2rem;
+  padding: 1.5rem;
   background-color: $dark-blue;
   border-radius: 0.8rem;
   cursor: pointer;
+  display: flex;
 }
 
 .footer {
@@ -60,6 +61,10 @@
       gap: 0.3rem;
       font-weight: 500;
     }
+
+    &-text > span:last-child() {
+      font-weight: 400;
+    }
   }
 
   &__right-box {
@@ -79,8 +84,10 @@
       justify-content: center;
     }
 
-    &-text > span:first-child {
-      font-size: 2.1rem;
+    &-text > span:nth-child(2),
+    &-text > span:nth-child(3),
+    &-text > span:nth-child(4) {
+      font-size: 1.5rem;
     }
   }
 }

@@ -78,7 +78,7 @@ body {
 }
 .header__email-box span {
   font-size: 1.9rem;
-  padding-top: 0.2rem;
+  padding-top: 0.4rem;
 }
 .header__phone-number-box {
   gap: 0.3rem;
@@ -91,7 +91,7 @@ body {
 }
 .header__phone-number-box span {
   font-size: 1.9rem;
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
 }
 .header__email-logo-box, .header__phone-logo-box {
   display: flex;
@@ -122,16 +122,17 @@ body {
 }
 .about__heading-box {
   display: flex;
+  padding-bottom: 2rem;
 }
 .about__heading {
   font-size: 4.4rem;
 }
 .about__description {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   gap: 2.3rem;
-  line-height: 2.7rem;
+  line-height: 2.5rem;
 }
 
 .works {
@@ -190,12 +191,13 @@ body {
 .footer__left-box {
   display: flex;
   color: #fff;
-  gap: 0.7rem;
-  font-size: 1.7rem;
-  padding: 0.7rem;
+  gap: 0.8rem;
+  font-size: 2rem;
+  padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
   cursor: pointer;
+  display: flex;
 }
 .footer__left-box-logo {
   display: flex;
@@ -213,12 +215,13 @@ body {
 .footer__center-box {
   display: flex;
   color: #fff;
-  gap: 0.7rem;
-  font-size: 1.7rem;
-  padding: 0.7rem;
+  gap: 0.8rem;
+  font-size: 2rem;
+  padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
   cursor: pointer;
+  display: flex;
 }
 .footer__center-box-logo {
   display: flex;
@@ -233,15 +236,19 @@ body {
   gap: 0.3rem;
   font-weight: 500;
 }
+.footer__center-box-text > span:last-child() {
+  font-weight: 400;
+}
 .footer__right-box {
   display: flex;
   color: #fff;
-  gap: 0.7rem;
-  font-size: 1.7rem;
-  padding: 0.7rem;
+  gap: 0.8rem;
+  font-size: 2rem;
+  padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
   cursor: pointer;
+  display: flex;
 }
 .footer__right-box-logo {
   display: flex;
@@ -255,8 +262,8 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.footer__right-box-text > span:first-child {
-  font-size: 2.1rem;
+.footer__right-box-text > span:nth-child(2), .footer__right-box-text > span:nth-child(3), .footer__right-box-text > span:nth-child(4) {
+  font-size: 1.5rem;
 }
 
 .map {
