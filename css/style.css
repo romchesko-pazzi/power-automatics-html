@@ -73,7 +73,7 @@ body {
   color: #fff;
   padding: 0.7rem;
   background-color: #1c499f;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
   cursor: pointer;
 }
 .header__email-box span {
@@ -86,7 +86,7 @@ body {
   color: #fff;
   padding: 0.7rem;
   background-color: #1c499f;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
   cursor: pointer;
 }
 .header__phone-number-box span {
@@ -102,7 +102,7 @@ body {
 .about {
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding: 7rem;
 }
 .about__main {
   border: 1px red solid;
@@ -137,11 +137,13 @@ body {
 
 .services {
   font-size: 20px;
-  margin-top: 15rem;
   border: 1px red solid;
+  padding: 10rem 0 10rem 0;
 }
 .services__heading {
-  text-align: center;
+  font-weight: 800;
+  font-size: 29px;
+  padding-left: 10rem;
 }
 .services__paragraph {
   font-size: 1.7rem;
@@ -166,11 +168,10 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #eeeeee;
-  padding: 1.7rem;
+  padding: 4rem;
 }
-.footer__ii {
+.footer__main-box {
   display: flex;
-  border: 1px red solid;
   align-self: center;
   gap: 30rem;
 }
@@ -181,7 +182,8 @@ body {
   font-size: 1.7rem;
   padding: 0.7rem;
   background-color: #1c499f;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
 }
 .footer__left-box-logo {
   display: flex;
@@ -203,7 +205,8 @@ body {
   font-size: 1.7rem;
   padding: 0.7rem;
   background-color: #1c499f;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
 }
 .footer__center-box-logo {
   display: flex;
@@ -213,9 +216,10 @@ body {
 }
 .footer__center-box-text {
   display: flex;
-  gap: 0.3rem;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-weight: 500;
 }
 .footer__right-box {
   display: flex;
@@ -224,7 +228,8 @@ body {
   font-size: 1.7rem;
   padding: 0.7rem;
   background-color: #1c499f;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
 }
 .footer__right-box-logo {
   display: flex;

@@ -7,18 +7,18 @@
   font-size: 1.7rem;
   padding: 0.7rem;
   background-color: $dark-blue;
-  border-radius: 0.7rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
   background-color: $gray-light;
-  padding: 1.7rem;
+  padding: 4rem;
 
-  &__ii {
+  &__main-box {
     display: flex;
-    border: 1px red solid;
     align-self: center;
     gap: 30rem;
   }
@@ -55,9 +55,10 @@
 
     &-text {
       display: flex;
-      gap: 0.3rem;
-      flex-direction: column;
       justify-content: center;
+      flex-direction: column;
+      gap: 0.3rem;
+      font-weight: 500;
     }
   }
 
