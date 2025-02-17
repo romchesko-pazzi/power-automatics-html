@@ -6,7 +6,7 @@
   padding: 7rem;
 
   &__main {
-    border: 1px red solid;
+    border: 1px rgb(255, 255, 255) solid;
     display: flex;
     max-width: 80%;
   }
@@ -18,7 +18,6 @@
 
   &__text-box {
     color: white;
-    border: 1px pink solid;
     padding: 3rem;
     flex: 1;
     max-width: 50%;

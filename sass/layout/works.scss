@@ -1,11 +1,10 @@
-.services {
-  font-size: 20px;
-  border: 1px red solid;
+.works {
+  font-size: 2rem;
   padding: 10rem 0 10rem 0;
 
   &__heading {
     font-weight: 800;
-    font-size: 29px;
+    font-size: 2.9rem;
     padding-left: 10rem;
   }
 
@@ -19,6 +18,11 @@
     gap: 12rem;
     padding-left: 10rem;
     padding-right: 10rem;
+
+    & img {
+      width: 25rem;
+      height: 25rem;
+    }
   }
 
   &__card-box {

@@ -18,7 +18,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f9f9fa;
   color: #000;
 }
@@ -105,7 +105,7 @@ body {
   padding: 7rem;
 }
 .about__main {
-  border: 1px red solid;
+  border: 1px rgb(255, 255, 255) solid;
   display: flex;
   max-width: 80%;
 }
@@ -115,7 +115,6 @@ body {
 }
 .about__text-box {
   color: white;
-  border: 1px pink solid;
   padding: 3rem;
   flex: 1;
   max-width: 50%;
@@ -135,27 +134,30 @@ body {
   line-height: 2.7rem;
 }
 
-.services {
-  font-size: 20px;
-  border: 1px red solid;
+.works {
+  font-size: 2rem;
   padding: 10rem 0 10rem 0;
 }
-.services__heading {
+.works__heading {
   font-weight: 800;
-  font-size: 29px;
+  font-size: 2.9rem;
   padding-left: 10rem;
 }
-.services__paragraph {
+.works__paragraph {
   font-size: 1.7rem;
   line-height: 2.5rem;
 }
-.services__cards-box {
+.works__cards-box {
   display: flex;
   gap: 12rem;
   padding-left: 10rem;
   padding-right: 10rem;
 }
-.services__card-box {
+.works__cards-box img {
+  width: 25rem;
+  height: 25rem;
+}
+.works__card-box {
   background-color: #fff;
   box-shadow: 0 0 0.8rem -0.3rem rgba(0, 0, 0, 0.36);
   margin-top: 1.5rem;
