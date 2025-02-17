@@ -146,6 +146,7 @@ body {
 .works__paragraph {
   font-size: 1.7rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 .works__cards-box {
   display: flex;
@@ -156,6 +157,7 @@ body {
 .works__cards-box img {
   width: 25rem;
   height: 25rem;
+  align-self: center;
 }
 .works__card-box {
   background-color: #fff;
@@ -164,6 +166,14 @@ body {
   padding: 3.5rem;
   color: #000;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.works__card-box span {
+  text-align: center;
+  display: block;
+  font-weight: 700;
 }
 
 .footer {
