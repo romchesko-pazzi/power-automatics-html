@@ -55,6 +55,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.header__title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
 .header__title h1 {
   font-size: 2.5rem;
 }
@@ -99,12 +104,9 @@ body {
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  padding: 7rem;
+  padding: 7rem 7rem 7rem 15rem;
 }
 .about__main {
-  border: 1px rgb(255, 255, 255) solid;
   display: flex;
   max-width: 80%;
 }
@@ -118,6 +120,8 @@ body {
   flex: 1;
   max-width: 50%;
   background: #3f6fcc;
+  box-shadow: 0 0 2rem 0 #333333;
+  border-radius: 0.7rem;
 }
 .about__heading-box {
   display: flex;
