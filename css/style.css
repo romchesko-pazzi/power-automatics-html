@@ -19,8 +19,6 @@ html {
 body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
-  background: #f9f9fa;
-  color: #000;
 }
 
 .background {
@@ -46,6 +44,7 @@ body {
   align-items: center;
   padding: 1.7rem;
   box-shadow: 0.4rem 0.6rem 0.8rem rgba(34, 60, 80, 0.2);
+  background-color: #eeeeee;
 }
 .header__heading-box {
   display: flex;
@@ -68,17 +67,17 @@ body {
   gap: 3rem;
 }
 .header__email-box {
-  gap: 0.5rem;
   display: flex;
   color: #fff;
   padding: 0.7rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
   cursor: pointer;
+  gap: 0.5rem;
 }
 .header__email-box span {
   font-size: 1.9rem;
-  padding-top: 0.4rem;
+  padding-top: 0.5rem;
 }
 .header__phone-number-box {
   gap: 0.3rem;
@@ -137,12 +136,12 @@ body {
 
 .works {
   font-size: 2rem;
-  padding: 10rem 0 10rem 0;
+  padding: 10rem;
 }
 .works__heading {
-  font-weight: 800;
   font-size: 2.9rem;
-  padding-left: 10rem;
+  margin-bottom: 3.5rem;
+  margin-left: 0.7rem;
 }
 .works__paragraph {
   font-size: 1.7rem;
@@ -152,8 +151,6 @@ body {
 .works__cards-box {
   display: flex;
   gap: 12rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 .works__cards-box img {
   width: 25rem;
@@ -236,7 +233,7 @@ body {
   gap: 0.3rem;
   font-weight: 500;
 }
-.footer__center-box-text > span:last-child() {
+.footer__center-box-text > span:last-child {
   font-weight: 400;
 }
 .footer__right-box {

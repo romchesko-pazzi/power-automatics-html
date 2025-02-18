@@ -21,6 +21,7 @@
   align-items: center;
   padding: 1.7rem;
   box-shadow: $default-box-shadow;
+  background-color: $gray-light;
 
   &__heading-box {
     display: flex;
@@ -48,11 +49,12 @@
   }
 
   &__email-box {
-    gap: 0.5rem;
     @include contact-box;
+
+    gap: 0.5rem;
     span {
       font-size: 1.9rem;
-      padding-top: 0.4rem;
+      padding-top: 0.5rem;
     }
   }
 
