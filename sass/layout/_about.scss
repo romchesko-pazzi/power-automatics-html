@@ -6,7 +6,6 @@
   padding: 7rem 7rem 7rem 15rem;
 
   &__main {
-    // border: 1px rgb(255, 255, 255) solid;
     display: flex;
     max-width: 80%;
   }
@@ -22,7 +21,6 @@
     flex: 1;
     max-width: 50%;
     background: $medium-blue;
-    // box-shadow: 0 0 20px 0px rgb(126 126 126);
     box-shadow: 0 0 2rem 0 $graphite;
     border-radius: 0.7rem;
   }

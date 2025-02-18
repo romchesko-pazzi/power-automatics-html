@@ -1,3 +1,5 @@
+@use '../abstracts/mixins' as *;
+
 /*Зануление стилей браузера*/
 *,
 *:after,
@@ -13,6 +15,16 @@
 но если нам нужен кастомный, допустим 10px -> 10px / 16px = 0.625 = 62.5%*/
 html {
   font-size: 62.5%;
+
+  @include respond(tab-land) {
+    // if width < 1200px apply it <-
+    font-size: 56.25%; // 1rem === 9px, 9/16 = 56.25%
+  }
+
+  @include respond(tab-port) {
+    // if width < 900px apply it <-
+    font-size: 50%; // 1rem === 8px, 8/16 = 50%
+  }
 }
 
 body {

@@ -1,4 +1,19 @@
 @charset "UTF-8";
+/*
+  0 - 600px:      Phone
+  600 - 900px:    Tablet portrait
+  900 - 1200px:   Tablet landscape
+  [1200 - 1800] is where our normal styles apply
+  1800px + :      Big desktop
+
+  $breakpoint argument choices:
+  - phone
+  - tab-port
+  - tab-land
+  - big-desktop
+  ORDER: Base + typography > general layout + grid > page layout > components
+  1em === 16px
+  */
 /*Зануление стилей браузера*/
 *,
 *:after,
@@ -14,6 +29,16 @@
 но если нам нужен кастомный, допустим 10px -> 10px / 16px = 0.625 = 62.5%*/
 html {
   font-size: 62.5%;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -71,7 +96,7 @@ body {
   display: flex;
   gap: 3rem;
 }
-.header__email-box {
+.header__email-box, .header__phone-number-box {
   display: flex;
   color: #fff;
   padding: 0.7rem;
@@ -80,22 +105,11 @@ body {
   cursor: pointer;
   gap: 0.5rem;
 }
-.header__email-box span {
+.header__email-box a, .header__phone-number-box a {
   font-size: 1.9rem;
   padding-top: 0.5rem;
-}
-.header__phone-number-box {
-  gap: 0.3rem;
-  display: flex;
   color: #fff;
-  padding: 0.7rem;
-  background-color: #1c499f;
-  border-radius: 0.8rem;
-  cursor: pointer;
-}
-.header__phone-number-box span {
-  font-size: 1.9rem;
-  padding-top: 0.5rem;
+  text-decoration: none;
 }
 .header__email-logo-box, .header__phone-logo-box {
   display: flex;
@@ -143,7 +157,7 @@ body {
   padding: 10rem;
 }
 .works__heading {
-  font-size: 2.9rem;
+  font-size: 2.7rem;
   margin-bottom: 3.5rem;
   margin-left: 0.7rem;
 }

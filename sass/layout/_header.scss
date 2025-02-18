@@ -52,24 +52,30 @@
     gap: 3rem;
   }
 
-  &__email-box {
+  &__email-box,
+  &__phone-number-box {
     @include contact-box;
 
     gap: 0.5rem;
-    span {
+    a {
       font-size: 1.9rem;
       padding-top: 0.5rem;
+      color: #fff;
+      text-decoration: none;
     }
   }
 
-  &__phone-number-box {
-    gap: 0.3rem;
-    @include contact-box;
-    span {
-      font-size: 1.9rem;
-      padding-top: 0.5rem;
-    }
-  }
+  //  {
+  //   @include contact-box;
+
+  //   gap: 0.3rem;
+  //   a {
+  //     font-size: 1.9rem;
+  //     padding-top: 0.5rem;
+  //     color: #fff;
+  //     text-decoration: none;
+  //   }
+  // }
 
   &__email-logo-box,
   &__phone-logo-box {
