@@ -28,7 +28,7 @@ html {
 
   @include respond(phone) {
     // if width < 600px apply it <-
-    font-size: 31.25%; // 1rem === 5px
+    // font-size: 31.25%; // 1rem === 5px
   }
 }
 
