@@ -43,6 +43,7 @@
     padding-left: 5rem;
     @include respond(phone) {
       padding-left: 0;
+      max-width: none;
     }
   }
 

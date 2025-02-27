@@ -362,6 +362,7 @@ body {
 @media (max-width: 37.5em) {
   .map__microtext {
     padding-left: 0;
+    max-width: none;
   }
 }
 .map__contacts {
