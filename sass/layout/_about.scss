@@ -1,13 +1,20 @@
 @use '../abstracts/vars' as *;
+@use '../abstracts/mixins' as *;
 
 .about {
-  // display: flex;
-  // justify-content: center;
   padding: 7rem 7rem 7rem 15rem;
+
+  @include respond(phone) {
+    padding: 7rem;
+  }
 
   &__main {
     display: flex;
     max-width: 80%;
+
+    @include respond(phone) {
+      max-width: none;
+    }
   }
 
   &__image-box {
@@ -23,6 +30,10 @@
     background: $medium-blue;
     box-shadow: 0 0 2rem 0 $graphite;
     border-radius: 0.7rem;
+
+    @include respond(phone) {
+      max-width: none;
+    }
   }
 
   &__heading-box {
