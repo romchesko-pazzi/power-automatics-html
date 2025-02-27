@@ -145,7 +145,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .about {
-    padding: 7rem;
+    padding: 5rem;
   }
 }
 .about__main {
@@ -328,6 +328,11 @@ body {
   width: 100%;
   min-height: 51rem;
 }
+@media (max-width: 37.5em) {
+  .map {
+    display: block;
+  }
+}
 .map__left-box {
   display: flex;
   justify-content: center;
@@ -337,11 +342,22 @@ body {
   background: #1c499f;
   gap: 2.1rem;
 }
+@media (max-width: 37.5em) {
+  .map__left-box {
+    padding: 4.5rem;
+    width: initial;
+  }
+}
 .map__heading {
   font-size: 3rem;
   font-weight: 600;
   padding-left: 5rem;
   color: white;
+}
+@media (max-width: 37.5em) {
+  .map__heading {
+    padding-left: 0;
+  }
 }
 .map__microtext {
   font-size: 2rem;
@@ -349,12 +365,22 @@ body {
   max-width: 55%;
   padding-left: 5rem;
 }
+@media (max-width: 37.5em) {
+  .map__microtext {
+    padding-left: 0;
+  }
+}
 .map__contacts {
   display: flex;
   flex-direction: column;
   color: #dddddd;
   font-size: 2.1rem;
   padding-left: 5rem;
+}
+@media (max-width: 37.5em) {
+  .map__contacts {
+    padding-left: 0;
+  }
 }
 .map__yandex-map {
   flex: 1;
