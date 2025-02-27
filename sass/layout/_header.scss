@@ -1,4 +1,5 @@
 @use '../abstracts/vars' as *;
+@use '../abstracts/mixins' as *;
 
 @mixin flex-center {
   display: flex;
@@ -30,6 +31,11 @@
 
   &__logo-box {
     @include flex-center;
+
+    & svg {
+      height: 5rem;
+      width: 5rem;
+    }
   }
 
   &__title {
@@ -56,12 +62,21 @@
   &__phone-number-box {
     @include contact-box;
 
+    & svg {
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+
     gap: 0.5rem;
     a {
       font-size: 1.9rem;
       padding-top: 0.5rem;
       color: #fff;
       text-decoration: none;
+
+      @include respond(tab-land) {
+        padding-top: 0.6rem;
+      }
     }
   }
 

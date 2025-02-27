@@ -22,6 +22,11 @@
     display: flex;
     align-self: center;
     gap: 30rem;
+
+    & svg {
+      height: 4rem;
+      width: 4rem;
+    }
   }
 
   &__left-box {

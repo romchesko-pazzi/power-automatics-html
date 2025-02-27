@@ -40,6 +40,11 @@ html {
     font-size: 50%;
   }
 }
+@media (max-width: 37.5em) {
+  html {
+    font-size: 31.25%;
+  }
+}
 
 body {
   min-height: 100vh;
@@ -80,6 +85,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.header__logo-box svg {
+  height: 5rem;
+  width: 5rem;
+}
 .header__title {
   display: flex;
   flex-direction: column;
@@ -105,11 +114,20 @@ body {
   cursor: pointer;
   gap: 0.5rem;
 }
+.header__email-box svg, .header__phone-number-box svg {
+  height: 3.5rem;
+  width: 3.5rem;
+}
 .header__email-box a, .header__phone-number-box a {
   font-size: 1.9rem;
   padding-top: 0.5rem;
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 75em) {
+  .header__email-box a, .header__phone-number-box a {
+    padding-top: 0.6rem;
+  }
 }
 .header__email-logo-box, .header__phone-logo-box {
   display: flex;
@@ -202,6 +220,10 @@ body {
   display: flex;
   align-self: center;
   gap: 30rem;
+}
+.footer__main-box svg {
+  height: 4rem;
+  width: 4rem;
 }
 .footer__left-box {
   display: flex;
