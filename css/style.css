@@ -235,10 +235,21 @@ body {
   background-color: #eeeeee;
   padding: 4rem;
 }
+@media (max-width: 37.5em) {
+  .footer {
+    background-color: #1c499f;
+    display: block;
+  }
+}
 .footer__main-box {
   display: flex;
   align-self: center;
   gap: 30rem;
+}
+@media (max-width: 37.5em) {
+  .footer__main-box {
+    display: block;
+  }
 }
 .footer__main-box svg {
   height: 4rem;
@@ -385,7 +396,6 @@ body {
 }
 .map__yandex-map {
   flex: 1;
-  border: 1px red solid;
   height: 50rem;
 }
 
