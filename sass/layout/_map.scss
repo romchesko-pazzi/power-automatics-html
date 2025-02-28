@@ -4,7 +4,7 @@
 .map {
   display: flex;
   width: 100%;
-  min-height: 51rem;
+  min-height: 50rem;
 
   @include respond(phone) {
     display: block;
@@ -61,5 +61,8 @@
 
   &__yandex-map {
     flex: 1;
+    border: 1px red solid;
+    // width: 100%; /* Ширина карты займет 100% ширины родительского блока */
+    height: 50rem;
   }
 }
