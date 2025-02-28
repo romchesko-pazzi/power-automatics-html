@@ -46,7 +46,7 @@ body {
 }
 
 .background {
-  background: url("../../img/background-image.jpg") center/cover no-repeat;
+  background: url("/power-automatics-html/img/background-image.jpg") center/cover no-repeat;
   position: relative;
   z-index: 0;
 }
