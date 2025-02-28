@@ -259,7 +259,7 @@ body {
   display: flex;
   color: #fff;
   gap: 0.8rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
@@ -283,7 +283,7 @@ body {
   display: flex;
   color: #fff;
   gap: 0.8rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
@@ -310,12 +310,16 @@ body {
   display: flex;
   color: #fff;
   gap: 0.8rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding: 1.5rem;
   background-color: #1c499f;
   border-radius: 0.8rem;
   cursor: pointer;
   display: flex;
+}
+.footer__right-box svg {
+  height: 4rem;
+  width: 4rem;
 }
 .footer__right-box-logo {
   display: flex;
@@ -329,8 +333,18 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 37.5em) {
+  .footer__right-box-text {
+    font-size: 2.4rem;
+  }
+}
 .footer__right-box-text > span:nth-child(2), .footer__right-box-text > span:nth-child(3), .footer__right-box-text > span:nth-child(4) {
   font-size: 1.5rem;
+}
+@media (max-width: 37.5em) {
+  .footer__right-box-text > span:nth-child(2), .footer__right-box-text > span:nth-child(3), .footer__right-box-text > span:nth-child(4) {
+    font-size: inherit;
+  }
 }
 
 .map {
