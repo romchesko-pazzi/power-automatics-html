@@ -5,7 +5,7 @@
   display: flex;
   color: #fff;
   gap: 0.8rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
   padding: 1.5rem;
   background-color: $dark-blue;
   border-radius: 0.8rem;
@@ -103,21 +103,21 @@
       justify-content: center;
 
       @include respond(phone) {
-        font-size: 2.4rem;
+        font-size: 2rem;
       }
     }
 
     &-text > span:nth-child(2),
     &-text > span:nth-child(3),
     &-text > span:nth-child(4) {
-      font-size: 1.5rem;
+      // font-size: 1.5rem;
     }
 
     @include respond(phone) {
       &-text > span:nth-child(2),
       &-text > span:nth-child(3),
       &-text > span:nth-child(4) {
-        font-size: inherit; // Наследует размер шрифта от родителя
+        // font-size: inherit; // Наследует размер шрифта от родителя
       }
     }
   }
