@@ -3,6 +3,9 @@
 
 .about {
   padding: 7rem 7rem 7rem 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @include respond(phone) {
     padding: 5rem;
@@ -11,34 +14,35 @@
   &__main {
     display: flex;
     max-width: 80%;
+    gap: 3rem; // Разделяет image-box и text-box
+
+    @include respond(phone) {
+      max-width: none;
+      flex-direction: column;
+    }
+  }
+
+  &__image-box,
+  &__text-box {
+    flex: 1;
+    max-width: 50%;
 
     @include respond(phone) {
       max-width: none;
     }
-  }
-
-  &__image-box {
-    flex: 1; /* Каждый блок занимает равное пространство */
-    max-width: 50%; /* Ограничиваем ширину до 50% */
   }
 
   &__text-box {
     color: white;
     padding: 3rem;
-    flex: 1;
-    max-width: 50%;
     background: $medium-blue;
     box-shadow: 0 0 2rem 0 $graphite;
     border-radius: 0.7rem;
-
-    @include respond(phone) {
-      max-width: none;
-    }
   }
 
   &__heading-box {
     display: flex;
-    padding-bottom: 2rem;
+    gap: 2rem;
   }
 
   &__heading {

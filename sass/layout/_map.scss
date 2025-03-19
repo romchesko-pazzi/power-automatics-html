@@ -18,6 +18,7 @@
     width: 50%;
     background: $dark-blue;
     gap: 2.1rem;
+    padding-left: 5rem;
 
     @include respond(phone) {
       padding: 4.5rem;
@@ -28,7 +29,6 @@
   &__heading {
     font-size: 3rem;
     font-weight: 600;
-    padding-left: 5rem;
     color: white;
 
     @include respond(phone) {
@@ -41,7 +41,6 @@
     font-size: 2rem;
     color: #dddddd;
     max-width: 55%;
-    padding-left: 5rem;
     @include respond(phone) {
       padding-left: 0;
       max-width: none;
@@ -53,7 +52,6 @@
     flex-direction: column;
     color: #dddddd;
     font-size: 2.1rem;
-    padding-left: 5rem;
     @include respond(phone) {
       padding-left: 0;
     }
@@ -61,7 +59,6 @@
 
   &__yandex-map {
     flex: 1;
-    // width: 100%; /* Ширина карты займет 100% ширины родительского блока */
     height: 50rem;
   }
 }

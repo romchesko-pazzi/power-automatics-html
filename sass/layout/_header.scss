@@ -88,18 +88,6 @@
     }
   }
 
-  //  {
-  //   @include contact-box;
-
-  //   gap: 0.3rem;
-  //   a {
-  //     font-size: 1.9rem;
-  //     padding-top: 0.5rem;
-  //     color: #fff;
-  //     text-decoration: none;
-  //   }
-  // }
-
   &__email-logo-box,
   &__phone-logo-box {
     @include flex-center;
