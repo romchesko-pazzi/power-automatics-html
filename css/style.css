@@ -141,9 +141,6 @@ body {
 
 .about {
   padding: 7rem 7rem 7rem 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 @media (max-width: 37.5em) {
   .about {
